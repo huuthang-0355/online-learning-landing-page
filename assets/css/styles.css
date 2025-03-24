@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", "sans-serif";
+    height: 10000px;
+}
+
+/* ========= Common ========= */
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1170px;
+    max-width: calc(100% - 24px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    min-width: 186px;
+    border-radius: 14px;
+    background: #1ebfc1;
+    color: white;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 41px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* =========== Header ============= */
+
+.header {
+    position: sticky;
+    top: -33px;
+    padding: 45px 0 12px;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav .list {
+    margin-left: 235px;
+    display: flex;
+    align-items: center;
+}
+
+.nav .cta {
+    margin-left: auto;
+}
+
+.nav .list a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 6px 19px;
+}
+
+.nav .list a:hover {
+    color: #2f3a3b;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.nav .cta .link {
+    color: #494949;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.nav .cta .btn {
+    margin-left: 24px;
+    min-width: 108px;
+    padding: 12px 24px;
+    font-size: 1.6rem;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    color: #1ebfc1;
+}
