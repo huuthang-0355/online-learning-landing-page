@@ -48,7 +48,7 @@ a {
 /* =========== Header ============= */
 
 .header {
-    /* position: sticky; */
+    position: sticky;
     top: -41px;
     padding: 49px 0 8px;
     z-index: 10;
