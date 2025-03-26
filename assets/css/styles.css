@@ -13,7 +13,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", "sans-serif";
-    height: 10000px;
 }
 
 /* ========= Common ========= */
@@ -690,4 +689,73 @@ a {
 
 .call-to-action .btn {
     margin-left: 410px;
+}
+
+/* ========= Footer ========= */
+
+.footer {
+    padding: 131px 0 50px;
+}
+
+.footer .top {
+    display: flex;
+    /* align-items: center; */
+    gap: 144px;
+}
+
+.footer .heading {
+    margin-bottom: 26px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .column .list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer .list a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.footer .social-column .heading {
+    margin-bottom: 18px;
+}
+
+.footer .social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer .social {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer .social-img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.footer .name-social {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
 }
