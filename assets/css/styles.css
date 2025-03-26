@@ -665,7 +665,7 @@ a {
 .call-to-action {
     margin-top: 130px;
     background-color: #def6f5;
-    padding: 76px 0 88px;
+    padding: 80px 0 88px;
 }
 
 .call-to-action .body {
@@ -704,7 +704,7 @@ a {
 }
 
 .footer .heading {
-    margin-bottom: 26px;
+    margin-bottom: 30px;
     color: #2e2e2e;
     font-size: 1.8rem;
     font-weight: 500;
@@ -713,7 +713,7 @@ a {
 .footer .column .list {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 24px;
 }
 
 .footer .list a {
